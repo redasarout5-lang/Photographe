@@ -1,0 +1,204 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 30px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h2{
+    font-size: 35px;
+     font-family: "DM Serif Text", serif;
+}
+
+/* CLASSES FONCTIONNELLES FLEX BOX */
+/* rendre flexible un parent = aligner ses enfants */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.align-center{
+    align-items: center;
+}
+
+/*CLASSES DE DIAMANSIONS */
+
+.w-100{
+    width: 100%;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.w-48{
+    width: 48%;
+}
+
+.w-33{
+    width: 33%;
+}
+
+.w-20{
+    width: 20%;
+}
+.w-40{
+    width:40%
+}
+
+/*header*/
+
+.logo{
+    width: 100px;
+    margin: 10px;
+
+}
+
+header ul{
+    list-style: none;
+}
+/*section hero*/
+
+.section-hero{
+    background-image: url(asset/image\ 8.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.section-hero div{
+    justify-content: flex-start;
+}
+
+h1{
+    margin-bottom: 20px;
+    font-size: 45px;
+     font-family: "DM Serif Text", serif;
+}
+
+h2{
+    margin-bottom: 50px;
+}
+/*BOUTON*/
+
+.bouton{
+    background-color: #292F36;
+    border-radius: 20px;
+    color: white;
+    padding: 15px;
+    display: inline-block;
+}
+
+.bouton-prem{
+    font-size: 25px;
+}
+
+.bouton-second{
+    font-size: 14px;
+}
+
+.container{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.margin-top-100{
+    margin-top: 100px;
+}
+
+.section-hero div>p{
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+/* SECTION SERVICES */
+
+.card{
+    padding: 20px;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.card h3{
+    margin-bottom: 20px;
+}
+
+.card2{
+    box-shadow: 5px 5px 10px black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.img{
+    border-radius: 5px 80px;
+    width: 100%;
+}
+
+.background{
+    background-color: #655649
+}
+ 
+.background66{
+    background-color: #F2EAE4;
+}
+.brand{
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.background2{
+    background-color: #292F36;
+    color: white;
+    padding: 40px;
+}
+
+.card0{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img2{
+    border-radius: 5px 80px;
+}
+
+.marge10{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.textcenter{
+    text-align: center;
+}
+.goldarow{
+    color: #cda274;
+}
+
+.marge30{
+    margin-top: 32px;
+}
