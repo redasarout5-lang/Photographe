@@ -1,4 +1,7 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap');
+
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -9,16 +12,23 @@ header{
     position: fixed;
     width: 100%;
     top: 30px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 a{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
+}
+
+.puce{
+    list-style-type: none;
 }
 
 h2{
     font-size: 35px;
-     font-family: "DM Serif Text", serif;
+}
+
+h1, h2,h3{
+     font-family: "Kalnia", serif;
 }
 
 /* CLASSES FONCTIONNELLES FLEX BOX */
@@ -31,6 +41,7 @@ h2{
 .space-between{
     justify-content: space-between;
 }
+
 
 .justify-center{
     justify-content: center;
@@ -50,8 +61,8 @@ h2{
     width: 100%;
 }
 
-.w-50{
-    width: 50%;
+.w-10{
+    width: 30%;
 }
 
 .w-48{
@@ -62,7 +73,7 @@ h2{
     width: 33%;
 }
 
-.w-20{
+.w-28{
     width: 20%;
 }
 .w-40{
@@ -107,8 +118,8 @@ h2{
 /*BOUTON*/
 
 .bouton{
-    background-color: #292F36;
-    border-radius: 20px;
+    background-color: #262424;
+    border-radius: 10px;
     color: white;
     padding: 15px;
     display: inline-block;
@@ -142,6 +153,7 @@ h2{
 
 .card{
     padding: 20px;
+    justify-content: center;
     align-items: flex-start;
     margin: 20px;
 }
@@ -151,9 +163,9 @@ h2{
 }
 
 .card2{
-    box-shadow: 5px 5px 10px black;
-    border-radius: 20px;
-    padding: 20px;
+    box-shadow: 5px 5px 6px black;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .img{
@@ -201,4 +213,25 @@ h2{
 
 .marge30{
     margin-top: 32px;
+}
+
+.margebtm{
+    margin-bottom: 20px;
+}
+
+.white{
+    color: white;
+}
+
+.gap-12{
+gap:12px;
+}
+
+.padding{
+    padding: 10px;
+}
+
+.margintopbtm{
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
